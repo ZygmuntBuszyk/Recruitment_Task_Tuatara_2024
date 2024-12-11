@@ -25,4 +25,3 @@ AppDataSource.initialize()
     .catch((error) => {
         console.error("Error initializing database:", error)
     })
-

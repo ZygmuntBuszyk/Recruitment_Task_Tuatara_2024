@@ -84,7 +84,7 @@ curl --request POST \
 ### Calculate Loan
 ``` curl -X POST \
 'http://localhost:3000/api/loans/calculate' \
--H 'Authorization: Bearer YOUR_ACCESS_TOKEN' \
+-H 'Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImNzYUJCSS1jQkpWRWk0T3pNMG5FViJ9.eyJpc3MiOiJodHRwczovL2Rldi1kYXhyc2h1ZG5vNzY3eXE3LmV1LmF1dGgwLmNvbS8iLCJzdWIiOiJ4MkU4WG1OVXk5R21hMkNMMjc5Q0RjUWxKZHpsWTR6aEBjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly9sb2FuLWNhbGN1bGF0b3ItYXBpIiwiaWF0IjoxNzMzODc1NzY3LCJleHAiOjE3MzM5NjIxNjcsImd0eSI6ImNsaWVudC1jcmVkZW50aWFscyIsImF6cCI6IngyRThYbU5VeTlHbWEyQ0wyNzlDRGNRbEpkemxZNHpoIn0.Pn9BUa6DyYqlt06NHzCgOPlMI48M-E5rpUNyM9jxoUxh8t5RuD8Iwn5ACSruXdlYLyaklMQLsWukqiGJ8NRBYDUbYe2i8TazasRVhJhE4nfCS4t9MOOywfTANjB679aPq-BPRiN2kWOtMAps-56NSZodaaT16T1zyG1KCz2ZgqiDW-MIy-q_GpHHNAy06csISApl03kIv-XS0QYZQKnw0o0fNsb5gPRRTNsYMiesu2aSNlnbslPAiM3k9p2ygBBJECfkybiw3K9oj-U9VUew_CLERMULuWrF66E9PS01slfbl8yW7_L4Moc_Wa7J7SSpDLo7a9miyQn-Z_PlLc76xA' \
 -H 'Content-Type: application/json' \
 -d '{
 "totalInstallments": 24,
